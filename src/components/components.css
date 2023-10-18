@@ -1,0 +1,35 @@
+/* Header */
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  height: 4em;
+}
+#logo {
+  color: var(--primary-color);
+  display: flex;
+  place-items: center;
+  margin-left: 1.5em;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+#logo span {
+  color: #9b9b9b;
+  font-weight: 300;
+}
+#logo img {
+  width: 1.5em;
+}
+nav {
+  display: flex;
+  justify-content: end;
+  margin-right: 1.5em;
+  place-items: center;
+}
+
+nav ul {
+  display: flex;
+  place-items: center;
+  column-gap: 1em;
+  list-style: none;
+}

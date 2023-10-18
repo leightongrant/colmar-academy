@@ -1,7 +1,6 @@
 import "./style.css";
-import header from "./components/header.ts";
+import homepage from "./components/homepage.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  ${header}
-
+  ${homepage}
 `;
