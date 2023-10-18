@@ -9,7 +9,7 @@ header {
   color: var(--primary-color);
   display: flex;
   place-items: center;
-  margin-left: 1.5em;
+  /* margin-left: 1.5em; */
   font-size: 1.5em;
   font-weight: 700;
 }
@@ -23,7 +23,7 @@ header {
 nav {
   display: flex;
   justify-content: end;
-  margin-right: 1.5em;
+  /* margin-right: 1.5em; */
   place-items: center;
 }
 
@@ -32,4 +32,26 @@ nav ul {
   place-items: center;
   column-gap: 1em;
   list-style: none;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+  nav {
+    display: none;
+  }
+  #logo p {
+    display: none;
+  }
+  #logo {
+    justify-content: space-between;
+  }
+  header {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 576px) {
+  .nav-icon {
+    display: none;
+  }
 }

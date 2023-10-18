@@ -1,6 +1,6 @@
 import "./style.css";
-import homepage from "./components/homepage.ts";
+import layout from "./components/layout.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  ${homepage}
+  ${layout}
 `;
