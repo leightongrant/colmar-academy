@@ -4,6 +4,8 @@ header {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   height: 4em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 #logo {
   color: var(--primary-color);
@@ -33,6 +35,34 @@ nav ul {
   column-gap: 1em;
   list-style: none;
 }
+/* Hero */
+#hero {
+  background-color: var(--secondary-color);
+  padding: 2em 1.5em;
+  display: grid;
+  grid-template-columns: 60% 25%;
+  gap: 1.5em;
+}
+
+#hero img {
+  width: 100%;
+}
+#hero > div {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  gap: 2em;
+}
+#hero p {
+  font-size: 1.5vw;
+}
+#hero h1 {
+  font-size: 3vw;
+}
+#hero button {
+  padding: 0.5em;
+  font-size: 1.5vw;
+}
 
 /* Media Queries */
 @media (max-width: 576px) {
@@ -47,6 +77,18 @@ nav ul {
   }
   header {
     grid-template-columns: 1fr;
+  }
+  #hero {
+    grid-template-columns: 1fr;
+  }
+  #hero p {
+    font-size: 1.5em;
+  }
+  #hero h1 {
+    font-size: 3em;
+  }
+  #hero button {
+    font-size: 1.5em;
   }
 }
 
