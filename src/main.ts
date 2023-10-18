@@ -1,8 +1,7 @@
 import "./style.css";
-import { setupCounter } from "./counter.ts";
+import header from "./components/header.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
+  ${header}
 
 `;
-
-setupCounter(document.querySelector<HTMLButtonElement>("#counter")!);
