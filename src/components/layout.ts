@@ -1,6 +1,6 @@
 import "./components.css";
 import header from "./header";
-const homepage = `
+const layout = `
     ${header}
 `;
-export default homepage;
+export default layout;
