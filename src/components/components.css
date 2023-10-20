@@ -55,10 +55,10 @@ nav ul {
   gap: 2vw;
 }
 #hero-sdc h1 {
-  font-size: 3.5vw;
+  font-size: max(2vw, 1.5rem);
 }
 #hero-sdc p {
-  font-size: 1.7vw;
+  font-size: max(1vw, 1rem);
   font-weight: 500;
 }
 
@@ -139,19 +139,17 @@ nav ul {
   #hero {
     grid-template-columns: 1fr;
   }
-  #hero p {
-    font-size: 1.5em;
+  #hero-sdc p {
+    font-size: 1.25em;
   }
 
-  #hero h1 {
-    margin-top: 1em;
-  }
-  #hero button {
+  #hero-sdc button {
     font-size: 1.5em;
     margin: 1em 0 2em 0;
     background-color: #9b9b9b;
   }
   #hero-sdc h1 {
+    margin-top: 1em;
     font-size: 2.5em;
     margin-bottom: 0.5em;
   }
