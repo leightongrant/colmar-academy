@@ -151,6 +151,40 @@ nav ul {
 span {
   font-weight: 100;
 }
+/* Thesis */
+#thesis {
+  display: grid;
+  grid-template-columns: 60% 1fr;
+  gap: 1.5rem;
+  background-color: #ffffff;
+  padding: 0.5rem;
+}
+#thesis-video video {
+  width: 100%;
+  padding: 1rem;
+}
+.thesis-content {
+  display: grid;
+  grid-template-columns: 35% 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+#thesis-aside {
+  padding-top: 1rem;
+}
+.thesis-image img {
+  width: 100%;
+}
+.thesis-info {
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+div.thesis-content:first-child {
+  background-color: var(--secondary-color);
+}
 /* Footer */
 footer {
   display: grid;
@@ -176,8 +210,20 @@ footer {
   .info-sdc-c {
     grid-template-columns: 1fr;
   }
+  .info-sdc-c img {
+    width: 30%;
+  }
+  #info-sdc > div:last-child {
+    background-color: #fff;
+  }
   #learning-content {
     grid-template-columns: 1fr 1fr;
+  }
+  .thesis-content {
+    display: none;
+  }
+  #thesis {
+    grid-template-columns: 1fr;
   }
 }
 @media (max-width: 576px) {
