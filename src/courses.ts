@@ -7,12 +7,12 @@ type Courses = {
 const courses: Courses[] = [
   {
     title: "Software engineering",
-    image: "/images/course-software.jpg",
+    image: "../images/course-software.jpg",
     topics: ["Web Development", "Mobile Development", "iOT", "APIs"],
   },
   {
     title: "Computer art",
-    image: "/images/course-computer-art.jpg",
+    image: "../images/course-computer-art.jpg",
     topics: [
       "Imaging & Design",
       "Web Design",
@@ -22,22 +22,22 @@ const courses: Courses[] = [
   },
   {
     title: "Design",
-    image: "/images/course-design.jpg",
+    image: "../images/course-design.jpg",
     topics: ["User Experience", "User Research", "Visual Design"],
   },
   {
     title: "Data",
-    image: "/images/course-data.jpg",
+    image: "../images/course-data.jpg",
     topics: ["Data Science", "Big Data", "SQL", "Data Visualization"],
   },
   {
     title: "Business",
-    image: "/images/course-business.jpg",
+    image: "../images/course-business.jpg",
     topics: ["Product Development", "Business Development", "Startup"],
   },
   {
     title: "Marketing",
-    image: "/images/course-marketing.jpg",
+    image: "../images/course-marketing.jpg",
     topics: ["Analytics", "Content Marketing", "Mobile Marketing"],
   },
 ];
